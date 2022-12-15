@@ -115,7 +115,7 @@ while True:
         SelMans.sort()
 
         window['-Name-'].update('', SelMans)
-        window['-MDK-'].update('', SelJob)
+        window['-Job-'].update('', SelJob)
         print("Теперь выбирите Человека и Работу")
 
     # Тут идет заполнение шаблона
